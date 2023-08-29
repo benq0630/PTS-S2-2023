@@ -1,0 +1,7 @@
+// External function declaration
+extern void Mimic();
+
+int main() {
+    Mimic();
+    return 0;
+}
