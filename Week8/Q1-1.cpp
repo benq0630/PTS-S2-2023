@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int boundSum() {
+int evenSum() {
     int lowerBound, upperBound, sum = 0;
 
     // Prompt for lower bound
