@@ -5,12 +5,12 @@ int boundSum() {
     int lowerBound, upperBound, sum = 0;
 
     // Prompt for lower bound
-    std::cout << "Enter the lower bound: ";
-    std::cin >> lowerBound;
+    cout << "Enter the lower bound: ";
+    cin >> lowerBound;
 
     // Prompt for upper bound
-    std::cout << "Enter the upper bound: ";
-    std::cin >> upperBound;
+    cout << "Enter the upper bound: ";
+    cin >> upperBound;
 
     // Check if lower bound is greater than upper bound
     if (lowerBound > upperBound) {
