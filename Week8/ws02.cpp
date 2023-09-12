@@ -1,15 +1,16 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     int number;
 
     // Prompt the user for an integer
-    std::cout << "Enter an integer: ";
-    std::cin >> number;
+    cout << "Enter an integer: ";
+    cin >> number;
 
     // Print "x" that number of times on different lines
     for (int i = 0; i < number; i++) {
-        std::cout << "x" << std::endl;
+        cout << "x" << endl;
     }
 
     return 0;
